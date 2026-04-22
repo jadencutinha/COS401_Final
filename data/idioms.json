@@ -1,0 +1,359 @@
+[
+  {
+    "idiom": "spill the beans",
+    "meaning": "reveal a secret",
+    "source_sentence": "After weeks of hiding the surprise, Maya finally spilled the beans.",
+    "literal_meaning": "physically spilling beans",
+    "expected_translation_note": "Should preserve the sense of revealing a secret, not literal beans."
+  },
+  {
+    "idiom": "kick the bucket",
+    "meaning": "die",
+    "source_sentence": "Everyone was shocked when the old landlord finally kicked the bucket.",
+    "literal_meaning": "strike a bucket with one’s foot",
+    "expected_translation_note": "Should convey death, not kicking an object."
+  },
+  {
+    "idiom": "hit the sack",
+    "meaning": "go to sleep",
+    "source_sentence": "I have an early meeting tomorrow, so I'm going to hit the sack.",
+    "literal_meaning": "strike a bag or sack",
+    "expected_translation_note": "Should convey going to bed or sleeping."
+  },
+  {
+    "idiom": "break the ice",
+    "meaning": "ease tension and start conversation",
+    "source_sentence": "The host told a joke to break the ice at the networking event.",
+    "literal_meaning": "physically crack frozen water",
+    "expected_translation_note": "Should preserve social meaning, not literal ice."
+  },
+  {
+    "idiom": "piece of cake",
+    "meaning": "very easy",
+    "source_sentence": "The calculus quiz was a piece of cake for her.",
+    "literal_meaning": "a slice of dessert",
+    "expected_translation_note": "Should convey ease, not dessert."
+  },
+  {
+    "idiom": "under the weather",
+    "meaning": "feeling sick",
+    "source_sentence": "I'm feeling a bit under the weather today, so I'll stay home.",
+    "literal_meaning": "located beneath weather conditions",
+    "expected_translation_note": "Should convey illness."
+  },
+  {
+    "idiom": "cost an arm and a leg",
+    "meaning": "be very expensive",
+    "source_sentence": "That downtown apartment costs an arm and a leg.",
+    "literal_meaning": "requires body parts as payment",
+    "expected_translation_note": "Should convey high cost."
+  },
+  {
+    "idiom": "once in a blue moon",
+    "meaning": "very rarely",
+    "source_sentence": "He only visits his hometown once in a blue moon.",
+    "literal_meaning": "during a blue-colored moon",
+    "expected_translation_note": "Should convey rarity."
+  },
+  {
+    "idiom": "let the cat out of the bag",
+    "meaning": "reveal a secret accidentally",
+    "source_sentence": "Tom let the cat out of the bag about the engagement.",
+    "literal_meaning": "release a cat from a bag",
+    "expected_translation_note": "Should preserve accidental disclosure."
+  },
+  {
+    "idiom": "burn the midnight oil",
+    "meaning": "work late into the night",
+    "source_sentence": "She burned the midnight oil studying for finals.",
+    "literal_meaning": "light oil late at night",
+    "expected_translation_note": "Should convey staying up late working."
+  },
+  {
+    "idiom": "bite the bullet",
+    "meaning": "endure something difficult",
+    "source_sentence": "I decided to bite the bullet and pay for the repair.",
+    "literal_meaning": "bite a metal bullet",
+    "expected_translation_note": "Should convey facing hardship."
+  },
+  {
+    "idiom": "call it a day",
+    "meaning": "stop working for now",
+    "source_sentence": "We've made enough progress, so let's call it a day.",
+    "literal_meaning": "name the day something",
+    "expected_translation_note": "Should convey ending work."
+  },
+  {
+    "idiom": "cut corners",
+    "meaning": "do something cheaply or carelessly",
+    "source_sentence": "The contractor cut corners to save money.",
+    "literal_meaning": "trim physical corners",
+    "expected_translation_note": "Should preserve reduced quality meaning."
+  },
+  {
+    "idiom": "on the ball",
+    "meaning": "alert and competent",
+    "source_sentence": "Our new assistant is really on the ball.",
+    "literal_meaning": "standing on a ball",
+    "expected_translation_note": "Should convey competence."
+  },
+  {
+    "idiom": "back to square one",
+    "meaning": "start over",
+    "source_sentence": "When the server crashed, we were back to square one.",
+    "literal_meaning": "return to a physical square",
+    "expected_translation_note": "Should convey restarting."
+  },
+  {
+    "idiom": "pull someone's leg",
+    "meaning": "joke or tease",
+    "source_sentence": "Relax, I'm just pulling your leg.",
+    "literal_meaning": "tug on a person's leg",
+    "expected_translation_note": "Should convey joking."
+  },
+  {
+    "idiom": "the ball is in your court",
+    "meaning": "it is your turn to act",
+    "source_sentence": "I've sent the proposal, so the ball is in your court now.",
+    "literal_meaning": "a ball located on a sports court",
+    "expected_translation_note": "Should convey responsibility now belongs to listener."
+  },
+  {
+    "idiom": "beat around the bush",
+    "meaning": "avoid the main topic",
+    "source_sentence": "Stop beating around the bush and answer the question.",
+    "literal_meaning": "hit plants around a bush",
+    "expected_translation_note": "Should convey avoidance."
+  },
+  {
+    "idiom": "a blessing in disguise",
+    "meaning": "something bad that leads to good",
+    "source_sentence": "Losing that job was a blessing in disguise.",
+    "literal_meaning": "a blessing wearing a disguise",
+    "expected_translation_note": "Should preserve unexpected positive outcome."
+  },
+  {
+    "idiom": "add fuel to the fire",
+    "meaning": "make a bad situation worse",
+    "source_sentence": "His rude comment added fuel to the fire.",
+    "literal_meaning": "put fuel onto flames",
+    "expected_translation_note": "Should convey escalation."
+  },
+  {
+    "idiom": "barking up the wrong tree",
+    "meaning": "pursuing the wrong idea",
+    "source_sentence": "If you think I leaked it, you're barking up the wrong tree.",
+    "literal_meaning": "a dog barking at an incorrect tree",
+    "expected_translation_note": "Should convey mistaken suspicion."
+  },
+  {
+    "idiom": "cry over spilled milk",
+    "meaning": "be upset about something irreversible",
+    "source_sentence": "There's no use crying over spilled milk now.",
+    "literal_meaning": "weep because milk spilled",
+    "expected_translation_note": "Should preserve futility."
+  },
+  {
+    "idiom": "fish out of water",
+    "meaning": "someone uncomfortable in surroundings",
+    "source_sentence": "I felt like a fish out of water at the fashion gala.",
+    "literal_meaning": "a fish outside water",
+    "expected_translation_note": "Should convey discomfort."
+  },
+  {
+    "idiom": "go the extra mile",
+    "meaning": "make additional effort",
+    "source_sentence": "She always goes the extra mile for clients.",
+    "literal_meaning": "walk one more mile",
+    "expected_translation_note": "Should preserve added effort."
+  },
+  {
+    "idiom": "in hot water",
+    "meaning": "in trouble",
+    "source_sentence": "He's in hot water after missing the deadline.",
+    "literal_meaning": "inside heated water",
+    "expected_translation_note": "Should convey trouble."
+  },
+  {
+    "idiom": "jump the gun",
+    "meaning": "act too soon",
+    "source_sentence": "We jumped the gun by announcing before approval.",
+    "literal_meaning": "jump over a firearm",
+    "expected_translation_note": "Should convey premature action."
+  },
+  {
+    "idiom": "keep an eye on",
+    "meaning": "watch carefully",
+    "source_sentence": "Can you keep an eye on my bag while I order?",
+    "literal_meaning": "retain an eye on something",
+    "expected_translation_note": "Should convey monitoring."
+  },
+  {
+    "idiom": "miss the boat",
+    "meaning": "lose an opportunity",
+    "source_sentence": "Investors who waited missed the boat.",
+    "literal_meaning": "fail to catch a boat",
+    "expected_translation_note": "Should convey missed chance."
+  },
+  {
+    "idiom": "no strings attached",
+    "meaning": "without conditions",
+    "source_sentence": "They offered the scholarship with no strings attached.",
+    "literal_meaning": "without physical strings",
+    "expected_translation_note": "Should convey no obligations."
+  },
+  {
+    "idiom": "off the hook",
+    "meaning": "free from responsibility or trouble",
+    "source_sentence": "The evidence cleared her, so she's off the hook.",
+    "literal_meaning": "removed from a hook",
+    "expected_translation_note": "Should convey release from blame."
+  },
+  {
+    "idiom": "put all your eggs in one basket",
+    "meaning": "risk everything on one plan",
+    "source_sentence": "Don't put all your eggs in one basket with a single client.",
+    "literal_meaning": "place eggs into one container",
+    "expected_translation_note": "Should convey concentrated risk."
+  },
+  {
+    "idiom": "read between the lines",
+    "meaning": "infer hidden meaning",
+    "source_sentence": "You have to read between the lines in his email.",
+    "literal_meaning": "read text spaces",
+    "expected_translation_note": "Should convey inference."
+  },
+  {
+    "idiom": "see eye to eye",
+    "meaning": "agree fully",
+    "source_sentence": "We don't always see eye to eye on politics.",
+    "literal_meaning": "two eyes seeing each other",
+    "expected_translation_note": "Should convey agreement."
+  },
+  {
+    "idiom": "sit on the fence",
+    "meaning": "remain undecided",
+    "source_sentence": "She keeps sitting on the fence about the merger.",
+    "literal_meaning": "physically sit on a fence",
+    "expected_translation_note": "Should convey indecision."
+  },
+  {
+    "idiom": "take it with a grain of salt",
+    "meaning": "view skeptically",
+    "source_sentence": "Take his market predictions with a grain of salt.",
+    "literal_meaning": "consume with salt",
+    "expected_translation_note": "Should convey skepticism."
+  },
+  {
+    "idiom": "through thick and thin",
+    "meaning": "through all difficulties",
+    "source_sentence": "They supported each other through thick and thin.",
+    "literal_meaning": "through dense and thin substances",
+    "expected_translation_note": "Should convey loyalty through hardship."
+  },
+  {
+    "idiom": "throw in the towel",
+    "meaning": "give up",
+    "source_sentence": "After years of losses, the owner threw in the towel.",
+    "literal_meaning": "toss a towel",
+    "expected_translation_note": "Should convey surrender."
+  },
+  {
+    "idiom": "under your nose",
+    "meaning": "in an obvious place unnoticed",
+    "source_sentence": "The keys were under your nose the whole time.",
+    "literal_meaning": "beneath a nose",
+    "expected_translation_note": "Should convey obvious but unnoticed location."
+  },
+  {
+    "idiom": "up in the air",
+    "meaning": "uncertain",
+    "source_sentence": "Our travel plans are still up in the air.",
+    "literal_meaning": "floating in the sky",
+    "expected_translation_note": "Should convey uncertainty."
+  },
+  {
+    "idiom": "water under the bridge",
+    "meaning": "past issue no longer important",
+    "source_sentence": "That argument is water under the bridge now.",
+    "literal_meaning": "water flowing below a bridge",
+    "expected_translation_note": "Should convey resolved past matter."
+  },
+  {
+    "idiom": "wrap your head around",
+    "meaning": "understand something difficult",
+    "source_sentence": "It took me days to wrap my head around quantum mechanics.",
+    "literal_meaning": "physically wrap head around something",
+    "expected_translation_note": "Should convey comprehension."
+  },
+  {
+    "idiom": "your guess is as good as mine",
+    "meaning": "I do not know either",
+    "source_sentence": "Why is the printer broken? Your guess is as good as mine.",
+    "literal_meaning": "another guess equals mine",
+    "expected_translation_note": "Should convey shared ignorance."
+  },
+  {
+    "idiom": "hit the nail on the head",
+    "meaning": "describe exactly correctly",
+    "source_sentence": "You hit the nail on the head with that diagnosis.",
+    "literal_meaning": "strike a nail accurately",
+    "expected_translation_note": "Should convey exact correctness."
+  },
+  {
+    "idiom": "open a can of worms",
+    "meaning": "create many new problems",
+    "source_sentence": "Changing that policy now would open a can of worms.",
+    "literal_meaning": "open a container of worms",
+    "expected_translation_note": "Should convey causing complications."
+  },
+  {
+    "idiom": "steal someone's thunder",
+    "meaning": "take attention or credit",
+    "source_sentence": "He stole my thunder by announcing it first.",
+    "literal_meaning": "steal weather noise",
+    "expected_translation_note": "Should convey taking spotlight."
+  },
+  {
+    "idiom": "the last straw",
+    "meaning": "final small problem causing collapse",
+    "source_sentence": "When they cut bonuses, that was the last straw.",
+    "literal_meaning": "the final piece of straw",
+    "expected_translation_note": "Should convey breaking point."
+  },
+  {
+    "idiom": "time flies",
+    "meaning": "time passes quickly",
+    "source_sentence": "Time flies when you're building startups.",
+    "literal_meaning": "time has wings and flies",
+    "expected_translation_note": "Should convey rapid passage of time."
+  },
+  {
+    "idiom": "turn a blind eye",
+    "meaning": "ignore intentionally",
+    "source_sentence": "Management turned a blind eye to the violations.",
+    "literal_meaning": "rotate a blind eye",
+    "expected_translation_note": "Should convey deliberate ignoring."
+  },
+  {
+    "idiom": "walk on eggshells",
+    "meaning": "act very carefully to avoid upsetting someone",
+    "source_sentence": "We all walk on eggshells around the new manager.",
+    "literal_meaning": "walk physically on eggshells",
+    "expected_translation_note": "Should convey cautious behavior."
+  },
+  {
+    "idiom": "wear many hats",
+    "meaning": "have many roles",
+    "source_sentence": "At the startup, she wears many hats.",
+    "literal_meaning": "put on multiple hats",
+    "expected_translation_note": "Should convey multiple responsibilities."
+  },
+  {
+    "idiom": "when pigs fly",
+    "meaning": "never",
+    "source_sentence": "He'll clean his room when pigs fly.",
+    "literal_meaning": "at the time pigs can fly",
+    "expected_translation_note": "Should convey impossibility."
+  }
+]

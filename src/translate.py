@@ -1,4 +1,4 @@
-import pandas as pandas
+import pandas as pd
 from transformers import pipeline
 
 translator = pipeline("translation_en_to_es", model = "Helsinki-NLP/opus-mt-en-es")
