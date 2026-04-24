@@ -1,5 +1,7 @@
 from deep_translator import GoogleTranslator
 
+SYSTEM_NAME = "google-translate"
+
 def translate_to_spanish(text):
     """Translate English text to Spanish."""
     s = (text or "").strip()
