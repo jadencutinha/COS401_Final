@@ -1,1 +1,4 @@
 venv/
+.env
+analysis/
+__pycache__/

@@ -1,48 +1,45 @@
-from translate import translate_text
-from backtranslate import back_translate
-from evaluate import evaluate_translation
-from analyze import analyze_resilts
-import json
+from analyze import analyze_results
+
 import csv
-import argparse
+import json
 
 INPUT_FILE = "data/idioms.json"
 OUTPUT_FILE = "data/results.csv"
 
-def run_pipeline():
+# row shape: sourced fields, MT output, LLM judge output
+RESULT_FIELDNAMES = [
+    "id",
+    "idiom",
+    "meaning",
+    "source_sentence",
+    "literal_meaning",
+    "expected_translation_note",
+    "condition",
+    "system",
+    "translated_text",
+    "back_translation",
+    "meaning_preserved",
+    "literal_translation",
+    "confidence",
+    "failure_type",
+    "judge_explanation",
+]
+
+
+def main():
     with open(INPUT_FILE, "r") as f:
         idioms = json.load(f)
     results = []
 
     for item in idioms:
-        source = item["source_sentence"]
-
-        translated = translate_text(source, target_lang="es")
-        back_translated = back_translate(translated, source_lang="es")
-
-        evaluation = evaluate_translation(
-            original = source,
-            idiom = item["idiom"],
-            meaning = item["meaning"],
-            translated = translated,
-            back_translated = back_translated,
-            note=item["expected_translation_note"]
-        )
-
-        results.append({
-            "idiom": item["idiom"],
-            "original": source,
-            "translated": translated,
-            "back_translated": back_translated,
-            **evaluation
-        })
+        pass
 
     with open(OUTPUT_FILE, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=results[0].keys())
+        writer = csv.DictWriter(f, fieldnames=RESULT_FIELDNAMES, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(results)
 
     analyze_results(OUTPUT_FILE)
 
 if __name__ == "__main__":
-    run_pipeline()
+    main()

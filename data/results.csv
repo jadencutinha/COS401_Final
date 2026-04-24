@@ -1,1 +1,1 @@
-idiom,source,translated_text,system
+id,idiom,meaning,source_sentence,literal_meaning,expected_translation_note,condition,system,translated_text,back_translation,meaning_preserved,literal_translation,confidence,failure_type,judge_explanation

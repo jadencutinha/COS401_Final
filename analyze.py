@@ -1,19 +1,10 @@
-import pandas as pd 
+import csv
 
-def analyze_results(file_path):
-    df = pd.read_csv(file_path)
+OUTPUT_DIR = "analysis/"
 
-    avg_preserved = df["meaning_preserved"].mean()
-    avg_literal = df["literal_translation"].mean()
+def analyze_results(results_file):
+    with open(results_file, "r") as f:
+        reader = csv.DictReader(f)
+        results = list(reader)
 
-    print("\nOverall results: ")
-    print(f"Meaning preserved (avg): {avg_preserved:.2f}")
-    print(f"Literal translation rate: {avg_literal:.2f}")
-
-    print("\nWorst cases: ")
-    worst = df.sort_values("meaning_preserved").head(5)
-    print(worst[["idiom", "translated", "back_translated"]])
-
-    print("\nMost Literal Failures")
-    literal = df.sort_values("literal_translation", ascending=False).head(5)
-    print(literal[["idiom", "translated"]])
+    return results
