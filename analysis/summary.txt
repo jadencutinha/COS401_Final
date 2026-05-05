@@ -1,0 +1,11 @@
+Results file: data/results.csv
+Total rows: 102
+Meaning preserved rate (overall): 0.598
+
+Effect of context on meaning preservation:
+- context: 0.824 (n=51)
+- isolated: 0.373 (n=51)
+
+Failure types (excluding preserved/none):
+- literalized_idiom: 31
+- meaning_shift: 10

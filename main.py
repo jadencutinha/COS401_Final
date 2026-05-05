@@ -120,7 +120,7 @@ def main():
         writer.writeheader()
         writer.writerows(results)
 
-    analyze_results(OUTPUT_FILE)
+    analyze_results(OUTPUT_FILE) # can also run independently with analyze.py
 
 if __name__ == "__main__":
     main()
